@@ -1,18 +1,18 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { FaHome } from "react-icons/fa";
-import * as St from "../styled/HeaderStyled"
-
+import * as St from "../css/HeaderStyled";
 
 export default function Header() {
-  
   const navigate = useNavigate();
 
   return (
     <St.CommonHeader>
       <St.CommonH1>
-        {/* //1.홈 로고 클릭 시 메인페이지(/)로 이동 */}
-        <FaHome onClick={() => {navigate("/");}}
+        <FaHome
+          onClick={() => {
+            navigate("/");
+          }}
         />
       </St.CommonH1>
       <St.Commondiv>
