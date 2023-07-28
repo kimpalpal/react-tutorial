@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { FaHome } from "react-icons/fa";
-import * as St from "../cssd/HeaderStyled";
+import * as St from "../css/HeaderStyled";
 
 export default function Header() {
   const navigate = useNavigate();

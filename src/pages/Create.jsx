@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import * as St from "../style/CreateStyled";
+import * as St from "../css/CreateStyled";
 import Header from "../common/Header";
 import Container from "../common/Container";
 import { useNavigate } from "react-router";
